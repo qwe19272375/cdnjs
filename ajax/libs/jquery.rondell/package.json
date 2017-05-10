@@ -1,0 +1,33 @@
+{
+  "name": "jquery.rondell",
+  "filename": "jquery.rondell.min.js",
+  "version": "1.1.0",
+  "homepage": "http://projects.sebastianhelzle.net/jquery.rondell/",
+  "keywords": [
+    "carousel",
+    "rondell",
+    "ui",
+    "animate",
+    "slide",
+    "effect"
+  ],
+  "description": "This is a plugin for displaying galeries and other content as carousel, thumbnail gallery, slider and much more!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sebobo/jquery.rondell.git"
+  },
+  "author": "Sebastian Helzle",
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/Sebobo/jquery.rondell.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ]
+  }
+}
